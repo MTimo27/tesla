@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/favicon.jpg"
+    />
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <script src="./utils/carousel.js" async></script>
+    <script src="./utils/navbar.js" async></script>
+    <title>Tesla - Popa Tiberiu</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero__up">
+        <div id="hero__navbar" class="hero__navbar">
+          <div class="hero__navbar-container">
+            <h1>TESLA</h1>
+            <button id="navbar__button">Menu</button>
+          </div>
+
+          <ul
+            id="hero__navbar-menu"
+            class="hero__navbar-menu"
+          >
+            <li class="hero__navbar-menuItem">
+              <a href="#home">Home</a>
+            </li>
+            <li class="hero__navbar-menuItem">
+              <a href="#interior">Interior</a>
+            </li>
+            <li class="hero__navbar-menuItem">
+              <a href="#powertrain">Powertrain</a>
+            </li>
+            <li class="hero__navbar-menuItem">
+              <a href="#autopilot">Autopilot</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__title">
+          <h1>Model X</h1>
+          <p>Plaid</p>
+        </div>
+      </div>
+
+      <div id="home" class="hero__down">
+        <div class="hero__specs">
+          <div class="hero__specs-item">
+            <h2>536 km</h2>
+            <p>Range</p>
+          </div>
+          <div class="hero__specs-item">
+            <h2>2.6s</h2>
+            <p>0-100km/h</p>
+          </div>
+          <div class="hero__specs-item">
+            <h2>9.9s</h2>
+            <p>1/4 Mile</p>
+          </div>
+          <div class="hero__specs-item forth">
+            <h2>1,020 hp</h2>
+            <p>Peak power</p>
+          </div>
+          <button class="hero__order pc">
+            <a
+              href="https://www.tesla.com/ro_RO/modelx/design?redirect=no#overview"
+              >Order now</a
+            >
+          </button>
+        </div>
+        <button class="hero__order phone">
+          <a
+            href="https://www.tesla.com/ro_RO/modelx/design?redirect=no#overview"
+            >Order now</a
+          >
+        </button>
+      </div>
+    </div>
+
+    <div id="interior" class="section-title">
+      <h1>All-New Interior</h1>
+    </div>
+
+    <div class="interior"></div>
+
+    <div class="slideshow-wrapper">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="./assets/slideshow1.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Spacious Cabin</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="./assets/slideshow2.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Perfect Environment</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="./assets/slideshow3.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Focus on Driving</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+
+    <div class="desc__container">
+      <div class="desc">
+        <div class="desc__item left">
+          <img src="./assets/backtablet.jpeg" alt="" />
+          <div class="desc__item-text">
+            <h2>Wireless Gaming</h2>
+            <p>
+              Up to 10 teraflops of processing power enables
+              in-car gaming on-par with today’s newest
+              consoles. Wireless controller compatibility
+              lets you game from any seat.
+            </p>
+          </div>
+        </div>
+        <div class="desc__item right">
+          <img src="./assets/phonecharging.jpg" alt="" />
+          <div class="desc__item-text">
+            <h2>Stay Connected</h2>
+            <p>
+              Multi-device Bluetooth, wireless and USB-C
+              charging for every passenger, with enough
+              power to fast-charge your tablets and laptop.
+            </p>
+          </div>
+        </div>
+        <div class="desc__item left">
+          <img src="./assets/audio.jpeg" alt="" />
+          <div class="desc__item-text">
+            <h2>Your Best Audio System</h2>
+            <p>
+              A 22-speaker, 960-watt audio system with
+              Active Road Noise Reduction offers the best
+              listening experience wherever you are.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo__container">
+      <div class="promo">
+        <div class="promo__specs">
+          <div class="promo__specs-item">
+            <h2>1,020 hp</h2>
+            <p>Peak power</p>
+          </div>
+          <div class="promo__specs-item">
+            <h2>9.9 s</h2>
+            <p>1/4 mile</p>
+          </div>
+          <div class="promo__specs-item">
+            <h2>2.6 s</h2>
+            <p>0-100km</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="powertrain" class="plaid__container">
+      <div class="plaid">
+        <div class="plaid__title">
+          <p>Plaid</p>
+          <h1>Beyond Ludicrous</h1>
+
+          <button>
+            <a
+              href="https://www.tesla.com/ro_RO/modelx/design?redirect=no#overview"
+              >Order now</a
+            >
+          </button>
+        </div>
+        <div class="plaid__text">
+          <p>
+            With the most power and quickest acceleration of
+            any SUV, Model X Plaid is the highest performing
+            SUV ever built. All Model X powertrains, with
+            updated battery architecture, can deliver
+            instant torque at any speed.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="powertrain">
+      <div class="powertrain__title">
+        <h2>Electric Powertrain</h2>
+        <p>
+          Model X platforms unite powertrain and battery
+          technologies for unrivaled performance, range and
+          efficiency. New module and pack thermal
+          architecture allows faster charging and gives you
+          more power and endurance in all conditions.
+        </p>
+      </div>
+
+      <div class="powertrain__img">
+        <img src="./assets/battery.jpeg" alt="" />
+      </div>
+
+      <div class="powertrain__selection">
+        <div class="powertrain__selection-item">
+          <h2>Model X</h2>
+          <p>
+            Dual Motor All-Wheel Drive platform has the
+            longest range, and now delivers incredible power
+            and acceleration.
+          </p>
+          <div class="powertrain__specs">
+            <div class="powertrain__specs-item">
+              <h2>3.9s</h2>
+              <p>0-100km/h</p>
+            </div>
+            <div class="powertrain__specs-item">
+              <h2>560km</h2>
+              <p>range</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="powertrain__selection-item">
+          <h2>Model X Plaid</h2>
+          <p>
+            Tri Motor All-Wheel Drive platform with torque
+            vectoring features three independent drive
+            units, each with a carbon fiber-sleeved rotor
+            that maintains full power output all the way to
+            top speed.
+          </p>
+          <div class="powertrain__specs">
+            <div class="powertrain__specs-item">
+              <h2>2.6s</h2>
+              <p>0-100km/h</p>
+            </div>
+            <div class="powertrain__specs-item">
+              <h2>536km</h2>
+              <p>range</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="promo__container">
+      <div class="promo second">
+        <div class="promo__specs">
+          <div class="promo__specs-item">
+            <h2>2,577 liters</h2>
+            <p>Storage capacity</p>
+          </div>
+          <div class="promo__specs-item">
+            <h2>2,268 kg</h2>
+            <p>Towing capacity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="autopilot" class="plaid__container">
+      <div class="plaid">
+        <div class="plaid__title">
+          <p>Autopilot</p>
+          <h1>Future of Driving</h1>
+          <button>
+            <a
+              href="https://www.tesla.com/ro_RO/modelx/design?redirect=no#overview"
+              >Order now</a
+            >
+          </button>
+        </div>
+        <div class="plaid__text">
+          <p>
+            Autopilot enables your car to steer, accelerate
+            and brake automatically within its lane under
+            your active supervision, assisting with the most
+            burdensome parts of driving. With over-the-air
+            software updates, the latest enhancements are
+            available instantly.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <video autoplay loop muted>
+      <source src="./assets/video.webm" type="video/mp4" />
+    </video>
+  </body>
+</html>
